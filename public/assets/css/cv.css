@@ -1,0 +1,62 @@
+
+span.section-title{
+    width: 100%;
+    color: rgba(11,7,54,1);
+    position: absolute;
+    top: 165px;
+    left: 0px;
+    font-family: Poppins;
+    font-weight: bolder;
+    font-size: 34px;
+    opacity: 1;
+    text-align: center;
+}
+
+div.text{
+    width: 100%;
+    color: rgba(11,7,54,1);
+    position: absolute;
+    top: 240px;
+    left: 0px;
+    font-family: Poppins;
+    font-weight: Regular;
+    font-size: 20px;
+    opacity: 1;
+    text-align: center;
+}
+
+div#CV.container
+{
+    position: relative;
+    top: 350px;
+    min-height: 100vh;
+    margin-bottom: 400px;
+}
+
+div#CV.container .image-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+
+}
+
+div#CV.container .image-container .image{
+    height: auto;
+    width: 330px;
+    box-shadow: 0 5px 15px rgba(11,7,54,1);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+div#CV.container .image-container .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+div#CV.container .image-container .image:hover img{
+    transform: scale(1.1);
+}
+
